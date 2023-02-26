@@ -17,6 +17,21 @@
   <p><strong>Identificador(id="")</strong>. El selector le da estilo al elemento con la identificación especificada.<br>Ejemplo: #firstname {
   background-color: yellow;
 }</p>
-  
+  <h2>Todos los elementos(*)</h2>
+  <p><strong>Todos los elementos(*)</strong>. El * selector selecciona todos los elementos. El selector * también puede seleccionar todos los elementos dentro de otro elemento.<br>Ejemplo: * {
+    background-color: yellow;
+}</p>
+  <h2>Varios elementos</h2>
+  <p><strong>Varios elementos(p em h1 h2)</strong>.El selector de elementos selecciona todos los elementos con el nombre de elemento especificado.<br>Ejemplo: p {
+  background-color: yellow;
+}</p>
+  <h2>Elementos contenidos en otros elementos (ol li)</h2>
+  <p><strong>Elementos contenidos en otros elementos (ol li)</strong>. El selector element1 ~ element2 coincide con las ocurrencias de element2 que están precedidas por element1. Ambos elementos deben tener el mismo padre, pero element2 no tiene que estar inmediatamente precedido por element1.<br>Ejemplo: p ~ ul {
+  background: #ff0000;
+}</p>
+  <h2>Sobrevuleo (p:hover)</h2>
+  <p><strong>Sobrevuleo (p:hover)</strong>.El :hoverselector se usa para seleccionar elementos cuando pasa el mouse sobre ellos. El selector :hover se puede usar en todos los elementos, no solo en los enlaces.<br>Ejemplo: a:hover {
+  background-color: yellow;
+}</p>
 </body>
 </html>
